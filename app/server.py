@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import uvicorn
 from fastai2 import *
-from fastai2.vision import *
+from fastai2.vision.all import *
 from io import BytesIO
 from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
